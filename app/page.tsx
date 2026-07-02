@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import StatsBar from "./components/StatsBar";
 import PartnersBar from "./components/PartnersBar";
 import YouTubeSection from "./components/YouTubeSection";
 import AcceleratorSection from "./components/AcceleratorSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <StatsBar />
         <PartnersBar />
         <YouTubeSection />
         <AcceleratorSection />
