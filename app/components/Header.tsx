@@ -34,24 +34,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div
-            className={`w-10 h-10 rounded-xl flex items-center justify-center font-extrabold text-lg transition-all duration-300 ${
-              scrolled
-                ? "bg-primary text-white"
-                : "bg-white/20 text-white backdrop-blur-sm"
-            }`}
-          >
-            YO
-          </div>
+          <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-1">
+            <path d="M10 20 H90 C95.5 20 100 24.5 100 30 V35 C100 40.5 95.5 45 90 45 H45 V75 C45 86 36 95 25 95 H15 C9.5 95 5 90.5 5 85 V30 C5 24.5 9.5 20 15 20 H10 Z" fill="#D364FF" />
+          </svg>
           <span
-            className={`font-bold text-lg tracking-tight transition-colors duration-300 ${
-              scrolled ? "text-text-primary" : "text-white"
+            className={`font-extrabold text-2xl tracking-tight transition-colors duration-300 ${
+              scrolled ? "text-[#2D1546]" : "text-white"
             }`}
           >
-            Youth
-            <span className={scrolled ? "text-primary" : "text-accent-light"}>
-              Opp
-            </span>
+            Theskillsbox
           </span>
         </Link>
 
@@ -63,7 +54,7 @@ export default function Header() {
               href={link.href}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                 scrolled
-                  ? "text-text-secondary hover:text-primary hover:bg-primary/5"
+                  ? "text-gray-600 hover:text-[#D364FF] hover:bg-[#D364FF]/10"
                   : "text-white/80 hover:text-white hover:bg-white/10"
               }`}
             >
@@ -78,7 +69,7 @@ export default function Header() {
             href="#"
             className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200 ${
               scrolled
-                ? "text-primary hover:bg-primary/5"
+                ? "text-[#D364FF] hover:bg-[#D364FF]/10"
                 : "text-white hover:bg-white/10"
             }`}
           >
@@ -87,7 +78,9 @@ export default function Header() {
           <Link
             href="#"
             className={`btn text-sm py-2.5 px-6 ${
-              scrolled ? "btn-primary" : "btn-white"
+              scrolled 
+                ? "bg-[#D364FF] text-white hover:bg-[#C253EE]" 
+                : "bg-white text-[#2D1546] hover:bg-gray-100"
             }`}
           >
             S&apos;inscrire
@@ -118,7 +111,7 @@ export default function Header() {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke={scrolled ? "#1a1a2e" : "white"}
+            stroke={scrolled ? "#2D1546" : "white"}
             strokeWidth="2"
             strokeLinecap="round"
           >
@@ -140,28 +133,28 @@ export default function Header() {
 
       {/* Mobile Nav */}
       {mobileOpen && (
-        <div className="lg:hidden bg-white border-t border-border animate-fade-in">
+        <div className="lg:hidden bg-white border-t border-gray-100 animate-fade-in">
           <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-4 py-3 rounded-xl text-text-secondary hover:text-primary hover:bg-primary/5 font-medium transition-all"
+                className="px-4 py-3 rounded-xl text-gray-600 hover:text-[#D364FF] hover:bg-[#D364FF]/10 font-medium transition-all"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
               </Link>
             ))}
-            <div className="border-t border-border mt-2 pt-4 flex flex-col gap-2">
+            <div className="border-t border-gray-100 mt-2 pt-4 flex flex-col gap-2">
               <Link
                 href="#"
-                className="btn btn-outline justify-center text-sm"
+                className="btn justify-center text-sm border-2 border-[#D364FF] text-[#D364FF]"
               >
                 Se connecter
               </Link>
               <Link
                 href="#"
-                className="btn btn-primary justify-center text-sm"
+                className="btn justify-center text-sm bg-[#D364FF] text-white"
               >
                 S&apos;inscrire
               </Link>
