@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import StatsBar from "./components/StatsBar";
 import PartnersBar from "./components/PartnersBar";
+import EcosystemSection from "./components/EcosystemSection";
 import YouTubeSection from "./components/YouTubeSection";
 import AcceleratorSection from "./components/AcceleratorSection";
 import ProgramsSection from "./components/ProgramsSection";
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <StatsBar />
         <PartnersBar />
+        <EcosystemSection />
         <YouTubeSection />
         <AcceleratorSection />
         <ProgramsSection />
