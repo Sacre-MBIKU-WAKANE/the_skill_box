@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import StatsBar from "./components/StatsBar";
 import PartnersBar from "./components/PartnersBar";
 import EcosystemSection from "./components/EcosystemSection";
+import SiliconValleySection from "./components/SiliconValleySection";
 import YouTubeSection from "./components/YouTubeSection";
 import AcceleratorSection from "./components/AcceleratorSection";
 import ProgramsSection from "./components/ProgramsSection";
@@ -22,6 +23,7 @@ export default function Home() {
         <StatsBar />
         <PartnersBar />
         <EcosystemSection />
+        <SiliconValleySection />
         <YouTubeSection />
         <AcceleratorSection />
         <ProgramsSection />
