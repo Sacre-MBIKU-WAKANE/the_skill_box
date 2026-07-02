@@ -6,17 +6,21 @@ export default function HeroSection() {
   return (
     <section 
       id="hero" 
-      className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-[#2D1546] pt-32, pb-20"
-      style={{
-        backgroundImage: 'radial-gradient(circle, #4A276B 2px, transparent 2px)',
-        backgroundSize: '32px 32px',
-        backgroundPosition: 'center',
-      }}
+      className="relative min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-[#421748] pt-32 pb-20"
     >
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col items-center">
+      <div 
+        className="relative z-10 max-w-fit mx-auto px-8 md:px-16 py-12 flex flex-col items-center"
+      >
+        <div className="absolute inset-0 z-0 pointer-events-none" style={{
+          backgroundImage: 'radial-gradient(circle, #D47CFF 2px, transparent 2px)',
+          backgroundSize: '32px 32px',
+          backgroundPosition: 'center',
+          WebkitMaskImage: 'radial-gradient(circle at center, black 40%, transparent 90%)',
+          maskImage: 'radial-gradient(circle at center, black 40%, transparent 90%)',
+        }}></div>
         
         {/* Title and Bubbles */}
-        <div className="relative mb-16 mt-8">
+        <div className="relative mb-16 mt-8 z-10">
           {/* Purple Bubble */}
           <div className="absolute -left-16 -top-8 md:-left-24 md:-top-6 animate-float z-10">
             <svg width="70" height="45" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,37 +41,37 @@ export default function HeroSection() {
         </div>
 
         {/* Fanned Cards */}
-        <div className="relative flex justify-center items-center w-full h-[300px] mb-12">
+        <div className="relative flex justify-center items-center w-full h-[400px] mb-12 z-10">
           
           {/* Card 1 */}
-          <div className="absolute z-10 transform -rotate-[12deg] -translate-x-[260px] translate-y-6 w-[180px] h-[220px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-10 transform -rotate-[12deg] -translate-x-[310px] translate-y-6 w-[210px] h-[260px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <div className="absolute inset-0 bg-[#E85D45] z-0"></div>
             <Image src="/images/mentoring.png" alt="Mentoring" layout="fill" objectFit="cover" className="opacity-90 relative z-10" />
           </div>
           
           {/* Card 2 */}
-          <div className="absolute z-20 transform -rotate-[6deg] -translate-x-[160px] translate-y-2 w-[190px] h-[240px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-20 transform -rotate-[6deg] -translate-x-[200px] translate-y-2 w-[230px] h-[290px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <div className="absolute inset-0 bg-[#C87541] z-0"></div>
             <Image src="/images/hero-group.png" alt="Group" layout="fill" objectFit="cover" className="relative z-10" />
           </div>
 
           {/* Card 3 */}
-          <div className="absolute z-30 transform -rotate-[2deg] -translate-x-[50px] w-[200px] h-[260px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-30 transform -rotate-[2deg] -translate-x-[60px] w-[240px] h-[310px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <Image src="/images/accelerator.png" alt="Accelerator" layout="fill" objectFit="cover" />
           </div>
 
           {/* Card 4 */}
-          <div className="absolute z-40 transform rotate-[2deg] translate-x-[60px] translate-y-1 w-[200px] h-[250px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-40 transform rotate-[2deg] translate-x-[70px] translate-y-1 w-[240px] h-[300px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <Image src="/images/workshop.png" alt="Workshop" layout="fill" objectFit="cover" />
           </div>
 
           {/* Card 5 */}
-          <div className="absolute z-30 transform rotate-[8deg] translate-x-[170px] translate-y-4 w-[190px] h-[230px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-30 transform rotate-[8deg] translate-x-[210px] translate-y-4 w-[230px] h-[280px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <Image src="/images/bootcamp.png" alt="Bootcamp" layout="fill" objectFit="cover" />
           </div>
 
           {/* Card 6 */}
-          <div className="absolute z-20 transform rotate-[15deg] translate-x-[260px] translate-y-10 w-[180px] h-[210px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
+          <div className="absolute z-20 transform rotate-[15deg] translate-x-[310px] translate-y-10 w-[210px] h-[250px] rounded-2xl overflow-hidden shadow-2xl border-4 border-transparent transition-transform hover:z-50 hover:scale-105 duration-300">
             <Image src="/images/community-event.png" alt="Community" layout="fill" objectFit="cover" />
           </div>
 
