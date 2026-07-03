@@ -6,10 +6,11 @@ import Link from "next/link";
 const navLinks = [
   { label: "Accueil", href: "/" },
   { label: "Programmes", href: "#programmes" },
+  { label: "Coworking", href: "#coworking" },
   { label: "Communauté", href: "#communaute" },
   { label: "Événements", href: "#evenements" },
   { label: "Ressources", href: "#ressources" },
-  { label: "À propos", href: "#apropos" },
+  { label: "À propos", href: "#ecosystem" },
 ];
 
 export default function Header() {

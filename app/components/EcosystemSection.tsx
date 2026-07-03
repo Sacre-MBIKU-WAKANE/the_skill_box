@@ -11,6 +11,7 @@ const features = [
     title: "Academy",
     desc: "Step-by-step business-building sprints to eliminate 'analysis paralysis'. Bootstrap the business and get to work – no theory.",
     link: "See our Methodology",
+    href: "#programmes",
   },
   {
     icon: (
@@ -22,6 +23,7 @@ const features = [
     title: "Incubation & Accélération",
     desc: "Hundreds of feedback touchpoints from entrepreneurs and investors when you need it the most – at the earliest stages.",
     link: "Meet the mentors",
+    href: "#accelerator",
   },
   {
     icon: (
@@ -29,10 +31,11 @@ const features = [
         <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
       </svg>
     ),
-    label: "FUNDING",
+    label: "ESPACES DE TRAVAIL",
     title: "Coworking & Bureau",
-    desc: "Increase your chances for first funding through the FI Venture Network (a global network of 'first-check investors') and Founder Capital (FI's global VC fund).",
-    link: "Explore funding",
+    desc: "Des espaces de travail inspirants, équipés et connectés à Kinshasa pour travailler sereinement et développer votre réseau.",
+    link: "Réserver un espace",
+    href: "#coworking",
   },
   {
     icon: (
@@ -40,10 +43,11 @@ const features = [
         <circle cx="12" cy="12" r="10" /><line x1="2" y1="12" x2="22" y2="12" /><path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" />
       </svg>
     ),
-    label: "200+ CITIES",
+    label: "AGRO-BUSINESS",
     title: "Agriculture & Elevage",
-    desc: "You don't have to do it alone. Join the world's largest network of idea and early-stage founders, ecosystem builders, and investors empowering new entrepreneurs.",
-    link: "Learn about our Mission",
+    desc: "Des formations pratiques et des accompagnements pour propulser les jeunes agripreneurs congolais vers le succès.",
+    link: "Découvrir nos projets",
+    href: "#programmes",
   },
 ];
 
@@ -171,7 +175,7 @@ export default function EcosystemSection() {
                 {f.desc}
               </p>
 
-              <a href="#" className="inline-flex items-center gap-1 text-xs font-semibold text-[#0D1F38] mt-5 hover:text-[#7C3AED] transition-colors">
+              <a href={f.href || "#"} className="inline-flex items-center gap-1 text-xs font-semibold text-[#0D1F38] mt-5 hover:text-[#7C3AED] transition-colors">
                 {f.link}
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7" />
