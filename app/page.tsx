@@ -31,9 +31,9 @@ export default function Home() {
         <AcceleratorSection />
         <EventsSection />
         <TestimonialsSection />
+        <ArticlesSection />
         {/* <YouTubeSection />
         <ProgramsSection />
-        <ArticlesSection />
         <CTABanner />
         <NewsletterSection /> */}
       </main>
