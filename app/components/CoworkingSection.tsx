@@ -14,7 +14,7 @@ export default function CoworkingSection() {
 
         {/* Section Header */}
         <div className="text-center mb-10">
-          <div className="section-label mx-auto">🏢 Coworking</div>
+          {/* <div className="section-label mx-auto">🏢 Coworking</div> */}
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1F38] mb-4">
             Notre Espace Coworking & Bureau
           </h2>

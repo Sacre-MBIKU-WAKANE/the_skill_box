@@ -4,6 +4,7 @@ import StatsBar from "./components/StatsBar";
 import PartnersBar from "./components/PartnersBar";
 import EcosystemSection from "./components/EcosystemSection";
 import CoworkingSection from "./components/CoworkingSection";
+import ProductsSection from "./components/ProductsSection";
 import SiliconValleySection from "./components/SiliconValleySection";
 import YouTubeSection from "./components/YouTubeSection";
 import AcceleratorSection from "./components/AcceleratorSection";
@@ -24,16 +25,17 @@ export default function Home() {
         <StatsBar />
         <PartnersBar />
         <EcosystemSection />
-        <CoworkingSection />
         <SiliconValleySection />
-        <YouTubeSection />
+        <CoworkingSection />
+        <ProductsSection />
         <AcceleratorSection />
+        <EventsSection />
+        {/* <YouTubeSection />
         <ProgramsSection />
         <ArticlesSection />
         <CTABanner />
-        <EventsSection />
         <TestimonialsSection />
-        <NewsletterSection />
+        <NewsletterSection /> */}
       </main>
       <Footer />
     </>

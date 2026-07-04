@@ -7,7 +7,7 @@ export default function SiliconValleySection() {
       <div className="relative flex flex-col lg:flex-row min-h-[280px] bg-[#3B0764]">
 
         {/* Left: Text content */}
-        <div className="relative z-10 flex flex-col justify-center pl-[20%] pr-10 py-12 lg:py-16 lg:w-[45%] xl:w-[42%]">
+        <div className="relative z-10 flex flex-col justify-center pl-[20%] pr-4 py-12 lg:py-16 lg:w-[55%] xl:w-[42%]">
           {/* Label */}
           <p className="text-[10px] font-bold text-purple-300 tracking-widest uppercase mb-5">
             Applications Open · Silicon Valley Fall 2026
