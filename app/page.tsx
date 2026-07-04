@@ -30,11 +30,11 @@ export default function Home() {
         <ProductsSection />
         <AcceleratorSection />
         <EventsSection />
+        <TestimonialsSection />
         {/* <YouTubeSection />
         <ProgramsSection />
         <ArticlesSection />
         <CTABanner />
-        <TestimonialsSection />
         <NewsletterSection /> */}
       </main>
       <Footer />
