@@ -9,7 +9,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Youth Opportunities RDC - Votre 'un jour' commence maintenant",
+  title: "The Skills Box - Votre 'un jour' commence maintenant",
   description:
     "Plateforme dédiée aux opportunités pour la jeunesse congolaise. Formations, accélérateurs, mentorat et événements pour propulser votre carrière.",
   keywords: [
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     "startup",
     "accélérateur",
     "mentorat",
+    "theskillsbox",
+    "theskillbox",
+    "entrepreneur",
+    "entrepreneuriat",
+    "ia",
+
   ],
 };
 
