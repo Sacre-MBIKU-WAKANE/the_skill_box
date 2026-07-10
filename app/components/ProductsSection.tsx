@@ -8,7 +8,7 @@ const products = [
     id: "agrofounder",
     label: "EMPLOYEE TO ENTREPRENEUR",
     title: "AgroFounder",
-    desc: "You have experience, domain knowledge, and a network in your industry - but don't know where to start.",
+    desc: "Accompagne les entrepreneurs du secteur agricole dans le développement de projets innovants, durables et à fort impact.",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
@@ -24,7 +24,7 @@ const products = [
     id: "mentor4growth",
     label: "SOLO FOUNDER",
     title: "Mentor4Growth",
-    desc: "Accompagnement personnalisé par des mentors chevronnés pour structurer votre projet et accélérer sa croissance.",
+    desc: "Bénéficiez d'un accompagnement personnalisé avec des mentors expérimentés pour accélérer votre projet ou votre carrière.",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
@@ -67,10 +67,10 @@ export default function ProductsSection() {
         {/* Section Header */}
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1F38] mb-4">
-            Découvrez nos produits
+            Choisissez le programme qui accélère votre croissance
           </h2>
           <p className="text-sm text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Our mission is to activate entrepreneurial potential, so we work with founders at the very earliest-stages.
+            Des parcours conçus pour développer vos compétences, accompagner vos projets et vous connecter à un réseau d'opportunités.
           </p>
         </div>
 
