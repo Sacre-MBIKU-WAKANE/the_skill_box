@@ -3,30 +3,30 @@ import Image from "next/image";
 const sideEvents = [
   {
     id: "side-1",
-    title: "Upcoming Info Session",
-    date: "Various Times",
-    time: "Various Times",
+    title: "Atelier ChatGPT pour les professionnels",
+    date: "Bientôt disponible",
+    time: "Non défini",
     location: "Online Event",
   },
   {
     id: "side-2",
-    title: "How to Think Like a Founder and Take Action",
-    date: "Jun 15, 2026",
-    time: "05:00 pm PDT",
+    title: "Masterclass Marketing Digital",
+    date: "Bientôt disponible",
+    time: "Non défini",
     location: "Online Event",
   },
   {
     id: "side-3",
     title: "How to Get Your First 10 Customers Without a Marketing Team or Budget",
-    date: "Jun 22, 2026",
-    time: "09:30 am PDT",
+    date: "Bientôt disponible",
+    time: "Non défini",
     location: "Online Event",
   },
   {
     id: "side-4",
     title: "Economic Development: How to Build Entrepreneurial Communities",
-    date: "Jun 23, 2026",
-    time: "08:00 am PDT",
+    date: "Bientôt disponible",
+    time: "Non défini",
     location: "Online Event",
   },
 ];
@@ -40,7 +40,7 @@ export default function EventsSection() {
           {/* Left: Label + Title */}
           <div className="lg:max-w-[58%]">
             <p className="text-xs font-bold text-[#6B21A8] tracking-[0.2em] uppercase mb-3">
-              FREE STARTUP EVENTS
+              Événements & Communauté
             </p>
             <h2 className="text-3xl md:text-[2.25rem] font-extrabold text-[#0D1F38] leading-tight">
               Apprenez des plus grands à partir de nos
@@ -51,9 +51,7 @@ export default function EventsSection() {
           {/* Right: Description */}
           <div className="lg:max-w-[38%] lg:pt-6">
             <p className="text-sm text-[#64607D] leading-relaxed">
-              We run 1,000+ free online startup workshops, pitch events,
-              investor meetups, and networking mixers per year. 750,000+
-              attendees to date.
+              Participez à nos conférences, bootcamps, ateliers, webinaires et rencontres professionnelles pour renforcer vos compétences et créer de nouvelles opportunités.
             </p>
           </div>
         </div>
@@ -81,10 +79,10 @@ export default function EventsSection() {
             <div className="p-5">
               {/* Badge */}
               <span className="inline-block bg-[#16A34A]/10 text-[#16A34A] text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-md mb-3">
-                FREE EVENT
+                ÉVÈNEMENT GRATUIT
               </span>
               <h3 className="text-lg font-bold text-[#0D1F38] mb-3 leading-snug">
-                How to Build Without a Team Using AI with Jonathan Greechan
+                bOOTCAMP SUR L'AUTOMATISATION 
               </h3>
               {/* Meta info */}
               <div className="flex flex-wrap items-center gap-4 text-xs text-[#64607D]">
@@ -95,21 +93,21 @@ export default function EventsSection() {
                     <line x1="8" y1="2" x2="8" y2="6" />
                     <line x1="3" y1="10" x2="21" y2="10" />
                   </svg>
-                  Jul 14, 2026
+                    Bientôt disponible
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10" />
                     <polyline points="12 6 12 12 16 14" />
                   </svg>
-                  09:00 pm PDT
+                  --
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                     <circle cx="12" cy="10" r="3" />
                   </svg>
-                  Online Event
+                  ÉVÈNEMENT EN LIGNE
                 </span>
               </div>
             </div>
