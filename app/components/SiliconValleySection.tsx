@@ -7,10 +7,10 @@ export default function SiliconValleySection() {
       <div className="relative flex flex-col lg:flex-row min-h-[280px] bg-[#3B0764]">
 
         {/* Left: Text content */}
-        <div className="relative z-10 flex flex-col justify-center pl-[20%] pr-4 py-12 lg:py-16 lg:w-[55%] xl:w-[42%]">
+        <div className="relative z-10 flex flex-col justify-center pl-[20%] pr-4 py-12 lg:py-16  lg:w-[60%] xl:w-[45%]">
           {/* Label */}
           <p className="text-[10px] font-bold text-purple-300 tracking-widest uppercase mb-5">
-            Applications Open · Silicon Valley Fall 2026
+            Programme international
           </p>
 
           {/* Heading */}
@@ -29,7 +29,7 @@ export default function SiliconValleySection() {
               href="#"
               className="inline-flex items-center gap-2 bg-[#C026D3] hover:bg-[#a21caf] text-white font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
             >
-              Apply Now
+              Découvrir le programme
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
@@ -45,7 +45,7 @@ export default function SiliconValleySection() {
                 <line x1="8" y1="2" x2="8" y2="6" />
                 <line x1="3" y1="10" x2="21" y2="10" />
               </svg>
-              Attend a Free Event
+              Postuler
             </a>
           </div>
         </div>
