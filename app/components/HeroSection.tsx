@@ -36,7 +36,7 @@ export default function HeroSection() {
           </div>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white text-center leading-tight tracking-tight relative z-20">
-            Votre <span className="text-[#D364FF]">&apos;un jour&apos;</span> commence<br />maintenant.
+            Votre <span className="text-[#D364FF]">&apos;avenir numérique&apos;</span><br /> commence aujourd'hui.
           </h1>
         </div>
 
@@ -79,19 +79,19 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p className="text-sm md:text-base text-gray-300 text-center max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-          The playing field has leveled. If you are ready to work and have the right set of AI tools - there has never been a better time to launch startup.
+         TheSkillsBox est un hub d'innovation, de formation et d'entrepreneuriat qui accompagne les jeunes, les professionnels et les entreprises dans le développement des compétences numériques, de l'intelligence artificielle et du leadership pour réussir dans l'économie de demain.
         </p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center mt-6">
           <a href="#" className="flex items-center gap-2 bg-[#E18DFF] hover:bg-[#D575F6] text-white px-7 py-3 rounded-xl text-sm font-medium transition-colors">
-            Preview our AI Tools
+            Découvrir nos programmes
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </a>
           <a href="#" className="flex items-center gap-2 bg-[#7534AB] hover:bg-[#662899] text-white px-7 py-3 rounded-xl text-sm font-medium transition-colors">
-            Preview our AI Tools
+            Rejoindre la communauté
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
