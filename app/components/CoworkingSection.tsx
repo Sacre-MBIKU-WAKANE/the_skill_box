@@ -36,10 +36,11 @@ export default function CoworkingSection() {
               </div>
 
               <h3 className="text-2xl font-bold text-[#0D1F38] mb-3 leading-snug">
-                Des espaces adaptés pour les startups et freelances
+                Des espaces adaptés à votre façon de travailler.
               </h3>
               <p className="text-sm text-gray-500 leading-relaxed mb-6">
-                Profitez d&apos;un environnement stimulant avec toutes les infrastructures nécessaires pour vous concentrer sur l&apos;essentiel : la réussite de vos projets.
+                Profitez d&apos;un cadre professionnel équipé pour travailler efficacement, recevoir vos clients, organiser vos réunions ou collaborer avec d'autres entrepreneurs au sein d'une communauté dynamique.
+
               </p>
 
               {/* Features Grid 2x2 */}
@@ -58,7 +59,7 @@ export default function CoworkingSection() {
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 6v6l4 2" />
                 </svg>
-                <span>Ouvert du Lundi au Samedi · 8h00 - 20h00</span>
+                <span>Ouvert du Lundi au Samedi · 9h00 - 17h00</span>
               </div>
 
               {/* CTA Button */}
