@@ -52,10 +52,12 @@ const features = [
 ];
 
 const toolFeatures = [
-  { icon: "🌐", label: "Market Research" },
-  { icon: "🚀", label: "Customer Outreach" },
-  { icon: "🤖", label: "24/7 Startup Advisor" },
-  { icon: "📈", label: "Fundraising" },
+  { icon: "🌐", label: "Formations certifiantes" },
+  { icon: "🚀", label: "Intelligence Artificielle" },
+  { icon: "🤖", label: "Entrepreneuriat" },
+  { icon: "📈", label: "Coworking" },
+  { icon: "📈", label: "Incubation de startups" },
+  { icon: "📈", label: "Événements & Networking" },
 ];
 
 export default function EcosystemSection() {
@@ -69,7 +71,7 @@ export default function EcosystemSection() {
             Découvrez l&apos;écosystème Theskillsbox
           </h2>
           <p className="text-sm text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            The playing field has leveled. If you are ready to work and have the right set of AI tools – there has never been a better time to launch startup.
+            Bien plus qu'un centre de formation, TheSkillsBox est un espace où l'apprentissage, l'innovation, l'entrepreneuriat et la collaboration se rencontrent pour créer des opportunités durables.
           </p>
         </div>
 
@@ -86,10 +88,10 @@ export default function EcosystemSection() {
               </div>
 
               <h3 className="text-2xl font-bold text-[#0D1F38] mb-3 leading-snug">
-                Nos outils IA pour les entrepreneurs
+                Nos pôles d'expertise
               </h3>
               <p className="text-sm text-gray-500 leading-relaxed mb-6">
-                Founder Institute gives anyone with an idea the AI tools, agents, and feedback to launch a fundable business.
+               Découvrez les solutions qui accompagnent votre évolution personnelle, professionnelle et entrepreneuriale.
               </p>
 
               {/* Features Grid 2x2 */}
@@ -115,7 +117,7 @@ export default function EcosystemSection() {
                 href="#"
                 className="inline-flex items-center gap-2 bg-[#7C3AED] hover:bg-[#6B21A8] text-white font-semibold text-sm px-6 py-3 rounded-xl transition-colors w-fit"
               >
-                Preview our AI Tools
+                Explorer nos programmes
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
