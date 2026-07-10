@@ -10,13 +10,13 @@ export default function PartnersBar() {
         {/* Left Part: Info (40% width on desktop) */}
         <div className="w-full md:w-[40%] p-8 flex flex-col justify-center bg-gray-50/50 border-b md:border-b-0 md:border-r border-gray-100">
           <span className="text-[10px] font-bold text-[#CB30E0] tracking-wider uppercase mb-2">
-            Notre Réseau
+            Ils nous font confiance
           </span>
           <h3 className="text-xl md:text-2xl font-bold text-[#0D1F38] leading-tight mb-3">
-            Trusted by <span className="text-primary-light">world-class</span> organizations
+            Des partenaires engagés pour <span className="text-primary-light">développer</span> les talents africains.
           </h3>
           <p className="text-xs text-gray-500 leading-relaxed">
-            Rejoignez les institutions mondiales et locales qui soutiennent activement l&apos;insertion et la réussite de la jeunesse en RDC.
+           Nous collaborons avec des organisations nationales et internationales afin d'offrir des formations de qualité, des opportunités d'innovation et un accompagnement concret aux entrepreneurs et aux professionnels en RDC.
           </p>
         </div>
 
