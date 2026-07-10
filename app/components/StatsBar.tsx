@@ -1,14 +1,14 @@
 "use client";
 
 const stats = [
-  { value: "3,000+", label: "STARTUPS BUILT" },
-  { value: "$2BN+", label: "ALUMNI FUNDING" },
-  { value: "100+", label: "CHAPTER COUNTRIES" },
-  { value: "40,000+", label: "MENTORS & INVESTORS" },
-  { value: "750,000+", label: "FOUNDERS TRAINED" },
-  { value: "200+", label: "COMPANY EXITS" },
-  { value: "$20BN+", label: "ESTIMATED PORTFOLIO VALUE" },
-  { value: "26%", label: "CHAPTERS IN DEVELOPING NATIONS" },
+  { value: "1,000+", label: "Apprenants formés" },
+  { value: "50++", label: "Événements organisés" },
+  { value: "20+", label: "Formations proposées" },
+  { value: "100+", label: "Entrepreneurs accompagnés" },
+  { value: "15+", label: "Partenaires stratégiques" },
+  { value: "500+", label: "Membres de la communauté" },
+  { value: "1", label: "Espace Coworking" },
+  { value: "2021", label: "Depuis" },
 ];
 
 export default function StatsBar() {
