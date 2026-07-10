@@ -25,11 +25,10 @@ export default function AcceleratorSection() {
         {/* Header - Centered */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#0D1F38] mb-4">
-            Nos formations IA Skills Accelerator
+            Maîtrisez l'Intelligence Artificielle pour transformer votre carrière.
           </h2>
           <p className="text-base text-[#64607D] max-w-2xl mx-auto leading-relaxed">
-            Our mission is to activate entrepreneurial potential, so we work with founders
-            at the very earliest-stages.
+            Apprenez à exploiter les outils d'IA les plus puissants grâce à des formations pratiques, accessibles et conçues pour répondre aux besoins des professionnels, entrepreneurs et étudiants.
           </p>
         </div>
 
@@ -43,12 +42,10 @@ export default function AcceleratorSection() {
 
             <div className="relative z-10">
               <h3 className="text-2xl md:text-[1.65rem] font-bold mb-4 leading-snug">
-                Canada Startup Ideation Bootcamp
+                Bootcamp Intelligence Artificielle & Prompt Engineering
               </h3>
               <p className="text-sm text-purple-200/80 leading-relaxed mb-6">
-                The Canada Startup Ideation Bootcamp is an intensive 2-week program
-                to help anyone in Canada test their startup idea using AI tools and
-                feedback from top entrepreneurs and investors.
+                Une formation intensive qui vous permet de maîtriser ChatGPT, Gemini, Claude et d'autres outils d'IA afin d'automatiser vos tâches, améliorer votre productivité et développer des solutions innovantes.
               </p>
 
               {/* Next Start Dates */}
@@ -60,10 +57,10 @@ export default function AcceleratorSection() {
                     <line x1="8" y1="2" x2="8" y2="6" />
                     <line x1="3" y1="10" x2="21" y2="10" />
                   </svg>
-                  Next Start Dates:
+                  Sessions ouvertes toute l'année
                 </div>
                 <span className="bg-white/15 backdrop-blur-sm text-white text-xs font-semibold px-3 py-1 rounded-full border border-white/20">
-                  June 30th
+                  En présentiel & en ligne
                 </span>
               </div>
             </div>
