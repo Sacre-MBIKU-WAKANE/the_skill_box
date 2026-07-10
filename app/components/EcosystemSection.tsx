@@ -7,10 +7,10 @@ const features = [
         <circle cx="12" cy="12" r="10" /><path d="M12 8v4l3 3" />
       </svg>
     ),
-    label: "PROVEN METHODOLOGY",
+    label: "Formations Professionnelles",
     title: "Academy",
-    desc: "Step-by-step business-building sprints to eliminate 'analysis paralysis'. Bootstrap the business and get to work – no theory.",
-    link: "See our Methodology",
+    desc: "Développez des compétences recherchées grâce à nos formations en intelligence artificielle, marketing digital, design, communication, entrepreneuriat et bien plus.",
+    link: "Découvrir les formations",
     href: "#programmes",
   },
   {
@@ -21,8 +21,8 @@ const features = [
     ),
     label: "40,000+ MENTORS",
     title: "Incubation & Accélération",
-    desc: "Hundreds of feedback touchpoints from entrepreneurs and investors when you need it the most – at the earliest stages.",
-    link: "Meet the mentors",
+    desc: "Transformez votre idée en projet viable grâce à un accompagnement personnalisé, du mentorat et un réseau d'experts.",
+    link: "Découvrir le programme",
     href: "#accelerator",
   },
   {
@@ -33,7 +33,7 @@ const features = [
     ),
     label: "ESPACES DE TRAVAIL",
     title: "Coworking & Bureau",
-    desc: "Des espaces de travail inspirants, équipés et connectés à Kinshasa pour travailler sereinement et développer votre réseau.",
+    desc: "Travaillez dans un environnement moderne favorisant la collaboration, la créativité et le développement de vos projets.",
     link: "Réserver un espace",
     href: "#coworking",
   },
